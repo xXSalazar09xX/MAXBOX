@@ -1,0 +1,14 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>lottie</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">lottie</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ng-lottie [options]="options" (animationCreated)="animationCreated($event)"></ng-lottie>
+</ion-content>
